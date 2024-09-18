@@ -1,0 +1,153 @@
+body {
+  background-color: #266138;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth; 
+}
+
+/* menu */
+
+.tab {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  position: fixed;
+  z-index: 100;
+}
+
+/* title of the menu */
+.tab h1{
+  position: absolute;
+  top: -30px;
+  font-size: 300%;
+}
+
+.tablinks {
+  font-size: 25px;
+  font-weight: 600;
+
+  position: relative;
+  
+  top: 60px;
+  left: -10px;
+  padding: 10px 20px;
+  margin: 10px;
+  
+  border: none;
+  cursor: pointer;
+  background-color: #EC7391;
+  color: #cedce0;
+  border-radius: 30px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tablinks:hover {
+  background-color: #D14266;
+  color: #2D96BC;
+}
+
+.tabcontent {
+  padding: 50px;
+  min-height: 900px;
+}
+
+#about h2{
+  top: 70px;
+  color:#266138
+}
+
+#movie h2{
+  top: 70px;
+  color:#266138
+}
+
+#stuff h2{
+  top: 70px;
+  color:#266138
+}
+
+h1, h2 {
+
+  /* centering the title */
+
+  position: relative;
+
+  transform:translateX(-50%);
+  left: 49.5%;
+  float: left;
+  clear: left;
+
+  color: #FFBB00;
+}
+
+#p5-container {
+  position: relative;
+  display: absolute;
+  justify-content: center; 
+  align-items: center;     
+  min-height: 100vh;       
+}
+
+canvas {
+  position: relative;
+  left: 22.25%;
+  top: 150px;
+  max-width: 100%;         
+  height: auto;            
+}
+
+/* movie positioning and sizing */
+
+.tabcontent iframe{
+  width: 55%;
+  height: 55%;
+  position: absolute;
+  top: 130%;
+  left: 22.5%;
+}
+
+/* style of the movie description */
+p {
+
+  color:#cedce0;
+  font-size: 22px;
+  max-width: 850px;
+  position: absolute;
+  top: 187%;
+  left: 26.5%;
+  text-align: center;
+}
+
+/* style of the about text - left */
+.yellow-text1 {
+  color:#FFBB00;
+  font-size: 32px;
+  max-width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  text-align: center;
+}
+
+/* style of the about text - right */
+.yellow-text2 {
+  color:#FFBB00;
+  font-size: 32px;
+  max-width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 71.5%;
+  text-align: center;
+}
+
+/* style of the carousel caption */
+.pink-text {
+  color:#EC7391;
+  font-size: 32px;
+  max-width: 600px;
+  position: absolute;
+  top: 285%;
+  left: 33.5%;
+  text-align: center;
+  
+}
+
